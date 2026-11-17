@@ -154,6 +154,7 @@ Bound actions call the same AL procedures as the Business Central pages, so the 
 |---|---|---|
 | PAA Flow Integration | The identity the flows connect as | Read on approval requests, tracking and WHX exceptions; modify on requests and tracking; insert on decision log and flow run log; execute on the API pages; indirect modify on Vendor Ledger Entry and Purchase Header (hold release). Nothing else. |
 | PAA Approvals User | Business Central users | Read on all PAA tables and pages; Setup and Cancel for the manager role |
+| PAA Admin | Administrators | Read, insert and modify on PAA Setup; run the setup page. Later: cancel stuck requests. |
 
 Posting users do not need a PAA permission set. The procedures that write PAA tables during posting declare `[InherentPermissions]` for PAA's own tables only, scoped to that procedure (runtime 9.0 or later; allowed only for objects in the same extension). Base-app changes such as the payment hold go through codeunit 113, which posting users can already run.
 
