@@ -155,7 +155,7 @@ Bound actions call the same AL procedures as the Business Central pages, so the 
 | PAA Flow Integration | The identity the flows connect as | Read on approval requests, tracking and WHX exceptions; modify on requests and tracking; insert on decision log and flow run log; execute on the API pages; indirect modify on Vendor Ledger Entry and Purchase Header (hold release). Nothing else. |
 | PAA Approvals User | Business Central users | Read on all PAA tables and pages; Setup and Cancel for the manager role |
 
-Posting users must not need a new permission set just because PAA is installed, or installing PAA could break purchase posting. How PAA guarantees this is item V-04.
+Posting users do not need a PAA permission set. The procedures that write PAA tables during posting declare `[InherentPermissions]` for PAA's own tables only, scoped to that procedure (runtime 9.0 or later; allowed only for objects in the same extension). Base-app changes such as the payment hold go through codeunit 113, which posting users can already run.
 
 ## 9. Open verification items
 
@@ -164,7 +164,7 @@ Posting users must not need a new permission set just because PAA is installed, 
 | V-01 | Are business events still delivered if the transaction that raised them rolls back (for example during Preview Posting)? | Run Preview Posting on a mismatched invoice with a flow subscribed; record the result. The design is safe either way (D-018). | Part 1, after publishing |
 | V-02 | Does a codeunit's `Permissions` property (codeunit 113) require the user to hold indirect permission on the table? | Approve a request as a user holding only PAA Flow Integration. | Part 1 |
 | V-03 | Does setting the header's `On Hold` inside PCX's assessment run cause a "record changed" conflict on release, receipt or invoice posting? | Automated tests for each of PCX's three triggers. | Part 1 |
-| V-04 | Can PAA's tables be written during posting by users without a PAA permission set (for example with `InherentPermissions`)? | Check the property against the 29.0 documentation, then post as a user without PAA sets. | Part 1, before writing the tables |
+| V-04 | Can PAA's tables be written during posting by users without a PAA permission set? | Documentation confirms `[InherentPermissions]` on methods, for objects in the same extension. Still to prove: post as a user without PAA permission sets. | Part 1, after publishing |
 | V-05 | Which Business Central connector action calls a bound action? | Check in the flow designer. | Part 2 |
 
 ## 10. Test plan

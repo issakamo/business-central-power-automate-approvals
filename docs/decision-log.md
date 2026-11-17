@@ -22,4 +22,5 @@
 | D-018 | 2026-11-16 | **Thin events**: identifiers and a few display values; every flow reads the record back through the API and stops if it is missing or not pending. | Safe even if an event fires from a transaction that rolls back (V-01); keeps payloads stable. | Agreed |
 | D-019 | 2026-11-16 | The flow identity gets only **PAA Flow Integration**, with indirect permissions on base-app tables. | Least privilege; the flows can change only what PAA's code allows. | Agreed |
 | D-020 | 2026-11-16 | PAA targets **runtime 17.0, application 28.3**, with `app/` and `test/` projects from the start. | Runs in both the 28.3 container (tests) and the 29.0 sandbox; same as PCX and WHX. Revisit when the container moves to 29. | Agreed |
+| D-021 | 2026-11-16 | Procedures that write PAA tables during posting use `[InherentPermissions]` for those tables only. | Posting users need no new permission set, so installing PAA cannot break purchase posting; the permission exists only inside those procedures. | Agreed |
 

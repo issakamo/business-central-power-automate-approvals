@@ -1,0 +1,63 @@
+{
+  "id": "5d298789-083f-4ee1-890a-1bc1fc879965",
+  "name": "Business Central Power Automate Approvals Tests",
+  "publisher": "Issaka Mohammed",
+  "version": "1.0.0.0",
+  "brief": "Automated tests for Business Central Power Automate Approvals.",
+  "description": "Test codeunits for approval requests, payment holds and exception notifications. For container and sandbox environments only.",
+  "privacyStatement": "https://github.com/issakamo/business-central-power-automate-approvals/blob/main/docs/privacy.md",
+  "EULA": "https://github.com/issakamo/business-central-power-automate-approvals/blob/main/LICENSE",
+  "help": "https://github.com/issakamo/business-central-power-automate-approvals/blob/main/README.md",
+  "url": "https://github.com/issakamo/business-central-power-automate-approvals",
+  "dependencies": [
+    {
+      "id": "eb60614f-8cc9-4093-8b09-5993f4cce710",
+      "name": "Business Central Power Automate Approvals",
+      "publisher": "Issaka Mohammed",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "95a9ca5a-698a-4273-83ea-0b3bab13238d",
+      "name": "Business Central Purchase Control",
+      "publisher": "Issaka Mohammed",
+      "version": "1.1.0.0"
+    },
+    {
+      "id": "9af83863-f5d7-40df-9815-e8a9795cc78c",
+      "name": "Business Central Warehouse Control",
+      "publisher": "Issaka Mohammed",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "name": "Library Assert",
+      "publisher": "Microsoft",
+      "version": "28.0.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "name": "Tests-TestLibraries",
+      "publisher": "Microsoft",
+      "version": "28.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "28.0.53152.0",
+  "application": "28.3.52162.53166",
+  "idRanges": [
+    {
+      "from": 54150,
+      "to": 54199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
