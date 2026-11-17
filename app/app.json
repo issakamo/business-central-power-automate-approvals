@@ -1,0 +1,48 @@
+{
+  "id": "eb60614f-8cc9-4093-8b09-5993f4cce710",
+  "name": "Business Central Power Automate Approvals",
+  "publisher": "Issaka Mohammed",
+  "version": "1.0.0.0",
+  "brief": "Power Automate approvals and notifications for Purchase Control and Warehouse Control exceptions.",
+  "description": "Raises Business Central business events when a purchase order becomes Critical or a high-priority warehouse exception occurs, applies and releases payment holds, records every approval decision, and exposes the APIs that Power Automate flows call back into.",
+  "privacyStatement": "https://github.com/issakamo/business-central-power-automate-approvals/blob/main/docs/privacy.md",
+  "EULA": "https://github.com/issakamo/business-central-power-automate-approvals/blob/main/LICENSE",
+  "help": "https://github.com/issakamo/business-central-power-automate-approvals/blob/main/README.md",
+  "contextSensitiveHelpUrl": "https://github.com/issakamo/business-central-power-automate-approvals/blob/main/docs/architecture.md",
+  "url": "https://github.com/issakamo/business-central-power-automate-approvals",
+  "logo": "resources/logo.png",
+  "dependencies": [
+    {
+      "id": "95a9ca5a-698a-4273-83ea-0b3bab13238d",
+      "name": "Business Central Purchase Control",
+      "publisher": "Issaka Mohammed",
+      "version": "1.1.0.0"
+    },
+    {
+      "id": "9af83863-f5d7-40df-9815-e8a9795cc78c",
+      "name": "Business Central Warehouse Control",
+      "publisher": "Issaka Mohammed",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "28.0.53152.0",
+  "application": "28.3.52162.53166",
+  "idRanges": [
+    {
+      "from": 54100,
+      "to": 54149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
