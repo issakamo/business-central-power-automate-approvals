@@ -163,10 +163,50 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table PAA Setup - Field Primary Key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1657514507 - NamedType 4124754419" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An approver email address is required to escalate approval request %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = request entry number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType ApproverRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657514507 - NamedType 1558597650" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A reason is required to cancel approval request %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = request entry number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType CancelReasonRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657514507 - NamedType 3521818249" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A comment is required to reject approval request %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = request entry number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType CommentRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657514507 - NamedType 344105056" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Escalated to %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = new approver email address</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType EscalatedTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1657514507 - NamedType 1592009350" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 open invoice entries put on hold with code %2. Order header held: %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = number of entries, %2 = hold code, %3 = Yes or No</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType HoldAppliedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657514507 - NamedType 1620105958" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 open invoice entries released from hold code %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = number of entries, %2 = hold code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType HoldReleasedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657514507 - NamedType 1425329136" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approval request %1 is %2 and can no longer be decided.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = request entry number, %2 = request status</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType NotOpenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657514507 - NamedType 2953227121" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approval request %1 is %2. Only a pending request can be escalated.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = request entry number, %2 = request status</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType NotPendingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657514507 - NamedType 3242776634" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approval request %1 is %2. The vendor is notified only for a rejected request.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = request entry number, %2 = request status</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType NotRejectedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1657514507 - NamedType 2209465276" size-unit="char" translate="yes" xml:space="preserve">
           <source>Risk became Critical (%1) in assessment entry %2.</source>
@@ -178,6 +218,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 35617159 - NamedType 270837651" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approve request %1 for order %2 and release its payment hold?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = request entry number, %2 = purchase order number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - NamedType ApproveQst</note>
+        </trans-unit>
         <trans-unit id="Page 35617159 - Control 1619036655 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the remaining amount of the invoice entries put on hold when the request was opened.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -188,8 +233,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Control Amount on Hold (LCY) - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 35617159 - Control 3167053572 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the approver the request was escalated to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Control Current Approver Email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 35617159 - Control 3167053572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Approver Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Control Current Approver Email - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 35617159 - Control 2657395909 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies when the request was approved or rejected.</source>
+          <source>Specifies when the request was approved, rejected or cancelled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Control Decided At - Property ToolTip</note>
         </trans-unit>
@@ -199,7 +254,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Control Decided At - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 35617159 - Control 2680742207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies who approved or rejected the request.</source>
+          <source>Specifies who approved, rejected or cancelled the request.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Control Decided By - Property ToolTip</note>
         </trans-unit>
@@ -298,6 +353,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Control Vendor No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 35617159 - Control 502054325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the vendor was emailed about a rejected request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Control Vendor Notified At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 35617159 - Control 502054325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Notified At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Control Vendor Notified At - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 35617159 - Action 3908146936 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View every action recorded for the selected request.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -307,6 +372,61 @@
           <source>Decision Log</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Action DecisionLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 35617159 - Action 803889193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approve the request and release the payment hold on its invoices. Use this when the Teams approval is unavailable.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Action Approve - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 35617159 - Action 803889193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approve</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Action Approve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 35617159 - Action 2279996793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel a request that can no longer be decided in Teams, and release its payment hold. A reason is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Action CancelRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 35617159 - Action 2279996793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Action CancelRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 35617159 - Action 113888489 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reject the request. The payment hold stays on its invoices.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Action Reject - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 35617159 - Action 113888489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reject</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Action Reject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 35617159 - Action 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Approval Requests - Action Category_Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3395178052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decision Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Decision Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3395178052 - NamedType 3108740925" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter a comment before you choose OK.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Decision Dialog - NamedType CommentRequiredMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3395178052 - Control 3621397395 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the reason for the decision. A comment is required to reject a request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Decision Dialog - Control DecisionCommentField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3395178052 - Control 3621397395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Decision Dialog - Control DecisionCommentField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 388961416 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Approval Decision Log</source>
