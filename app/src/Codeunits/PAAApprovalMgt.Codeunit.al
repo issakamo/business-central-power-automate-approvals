@@ -52,13 +52,13 @@ codeunit 54103 "PAA Approval Mgt"
     end;
 
     [InherentPermissions(PermissionObjectType::TableData, Database::"PAA Decision Log", 'I')]
-    procedure LogAction(RequestEntryNo: Integer; LogAction: Enum "PAA Log Action"; Comment: Text)
+    procedure LogAction(RequestEntryNo: Integer; ActionToLog: Enum "PAA Log Action"; Comment: Text)
     var
         DecisionLog: Record "PAA Decision Log";
     begin
         DecisionLog.Init();
         DecisionLog."Request Entry No." := RequestEntryNo;
-        DecisionLog."Log Action" := LogAction;
+        DecisionLog."Log Action" := ActionToLog;
         DecisionLog.Source := DecisionLog.Source::"Business Central";
         DecisionLog."Performed By" := CopyStr(UserId(), 1, MaxStrLen(DecisionLog."Performed By"));
         DecisionLog."Performed At" := CurrentDateTime();
