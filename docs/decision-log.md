@@ -23,4 +23,5 @@
 | D-019 | 2026-11-16 | The flow identity gets only **PAA Flow Integration**, with indirect permissions on base-app tables. | Least privilege; the flows can change only what PAA's code allows. | Agreed |
 | D-020 | 2026-11-16 | PAA targets **runtime 17.0, application 28.3**, with `app/` and `test/` projects from the start. | Runs in both the 28.3 container (tests) and the 29.0 sandbox; same as PCX and WHX. Revisit when the container moves to 29. | Agreed |
 | D-021 | 2026-11-16 | Procedures that write PAA tables during posting use `[InherentPermissions]` for those tables only. | Posting users need no new permission set, so installing PAA cannot break purchase posting; the permission exists only inside those procedures. | Agreed |
+| D-022 | 2026-11-18 | Use a **90-day self-service Power Automate trial** and one **managed developer environment**; start the trial at Part 1, step 7. | The Developer Plan no longer provides a free environment (I-004). Starting the trial only when events are ready keeps the full 90 days for building and recording the flows. | Agreed |
 
