@@ -7,6 +7,7 @@ using Microsoft.Purchases.Payables;
 codeunit 54102 "PAA Payment Hold Mgt"
 {
     Access = Internal;
+    Permissions = tabledata "Purchase Header" = rm;
 
     /// Puts the order header and its open posted-invoice entries on hold.
     /// Never overwrites a hold that someone else placed.
