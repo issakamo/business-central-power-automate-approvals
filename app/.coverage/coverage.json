@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "coverageData": [],
+  "testStatus": {
+    "54150|CriticalOnInvoiceOpensRequestAndHoldsInvoice": 0,
+    "54150|CriticalOnReceiptHoldsHeaderAndLaterInvoice": 0,
+    "54150|SecondCriticalAssessmentOpensNoSecondRequest": 0,
+    "54150|ForeignHoldIsNeverOverwrittenOrReleased": 0,
+    "54150|ApproveReleasesHold": 0,
+    "54150|RejectRequiresCommentAndKeepsHold": 1,
+    "54150|DecidedRequestCannotBeDecidedAgainAndCancelNeedsReason": 0,
+    "54150|NoRequestWhenApprovalsDisabled": 0,
+    "54151|OnlyHighAndCriticalExceptionsAreTracked": 0,
+    "54151|ExceptionRaisedToHighLaterIsTracked": 0,
+    "54151|ResolvedExceptionIsClosedOnlyOnce": 0,
+    "54151|NoTrackingWhenNotificationsDisabled": 0,
+    "54150|RejectWithoutCommentIsRefused": 0,
+    "54150|RejectKeepsHold": 0,
+    "54150|ApproveTwiceIsRefused": 0,
+    "54150|CancelWithoutReasonIsRefused": 0
+  }
+}

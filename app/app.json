@@ -25,6 +25,13 @@
       "version": "1.0.0.0"
     }
   ],
+  "internalsVisibleTo": [
+    {
+      "id": "5d298789-083f-4ee1-890a-1bc1fc879965",
+      "name": "Business Central Power Automate Approvals Tests",
+      "publisher": "Issaka Mohammed"
+    }
+  ],
   "screenshots": [],
   "platform": "28.0.53152.0",
   "application": "28.3.52162.53166",
