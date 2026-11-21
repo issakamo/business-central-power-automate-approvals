@@ -91,11 +91,11 @@ page 54121 "PAA Exception API"
                 {
                     Caption = 'Resolved Date';
                 }
-                field(plannerTaskId; PlannerTaskId)
+                field(plannerTaskId; PlannerTaskIdValue)
                 {
                     Caption = 'Planner Task Id';
                 }
-                field(teamsMessageId; TeamsMessageId)
+                field(teamsMessageId; TeamsMessageIdValue)
                 {
                     Caption = 'Teams Message Id';
                 }
@@ -109,22 +109,25 @@ page 54121 "PAA Exception API"
 
     var
         ExceptionTypeText: Text[50];
-        PlannerTaskId: Text[100];
-        TeamsMessageId: Text[100];
+        PlannerTaskIdValue: Text[100];
+        TeamsMessageIdValue: Text[100];
 
     trigger OnAfterGetRecord()
     var
         Tracking: Record "PAA Exception Tracking";
     begin
         ExceptionTypeText := CopyStr(Format(Rec."Exception Type"), 1, MaxStrLen(ExceptionTypeText));
-        PlannerTaskId := '';
-        TeamsMessageId := '';
+        PlannerTaskIdValue := '';
+        TeamsMessageIdValue := '';
         if Tracking.Get(Rec."Entry No.") then begin
-            PlannerTaskId := Tracking."Planner Task Id";
-            TeamsMessageId := Tracking."Teams Message Id";
+            PlannerTaskIdValue := Tracking."Planner Task Id";
+            TeamsMessageIdValue := Tracking."Teams Message Id";
         end;
     end;
 
+    // The parameter names deliberately match the plannerTaskId and teamsMessageId
+    // fields: they are the API contract, so a flow sends back the same names it reads.
+#pragma warning disable AA0245
     [ServiceEnabled]
     procedure setPlannerTask(var ActionContext: WebServiceActionContext; plannerTaskId: Text; teamsMessageId: Text)
     var
@@ -136,4 +139,5 @@ page 54121 "PAA Exception API"
         ActionContext.AddEntityKey(Rec.FieldNo(SystemId), Rec.SystemId);
         ActionContext.SetResultCode(WebServiceActionResultCode::Updated);
     end;
+#pragma warning restore AA0245
 }
