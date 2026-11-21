@@ -133,6 +133,86 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table PAA Decision Log - Field Source - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3587668124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exception Notification Tracking</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Exception Tracking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3587668124 - Field 3015738655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Closed Notified At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Exception Tracking - Field Closed Notified At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3587668124 - Field 1893580376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exception Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Exception Tracking - Field Exception Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3587668124 - Field 974406800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Notified Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Exception Tracking - Field Last Notified Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3587668124 - Field 2752834433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notified At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Exception Tracking - Field Notified At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3587668124 - Field 2493090230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planner Task Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Exception Tracking - Field Planner Task Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3587668124 - Field 848900004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teams Message Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Exception Tracking - Field Teams Message Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144211681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flow Run Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Flow Run Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144211681 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Flow Run Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144211681 - Field 1973247455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flow Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Flow Run Log - Field Flow Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144211681 - Field 3032596473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logged At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Flow Run Log - Field Logged At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144211681 - Field 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Flow Run Log - Field Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144211681 - Field 472338107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Flow Run Log - Field Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144211681 - Field 3633922808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Flow Run Log - Field Run Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144211681 - Field 3627141058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Flow Run Log - Field Source Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144211681 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PAA Flow Run Log - Field Source Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 193209033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Power Automate Approvals Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -212,6 +292,11 @@
           <source>Risk became Critical (%1) in assessment entry %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = match status, %2 = assessment entry number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Approval Mgt - NamedType RequestedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4264669995 - NamedType 1258913306" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory exception %1 has not been notified, so there is no Planner task to link.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = exception entry number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PAA Exception Mgt - NamedType NotTrackedErr</note>
         </trans-unit>
         <trans-unit id="Page 995959682 - Property 3446740159" size-unit="char" translate="yes" xml:space="preserve">
           <source>Approval Request</source>
@@ -623,6 +708,251 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PAA Decision Log - Control Source - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 955603665 - Property 3446740159" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Exception</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Property EntityCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Property 631549417" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Exceptions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Property EntitySetCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 1696223815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actual Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control actualQuantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 3536435188 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control binCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 1414911016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control createdDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 4232699882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 4169237377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control difference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 2683860767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control entryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 3116966201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exception Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control exceptionType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 2305036110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exception Type Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control exceptionTypeText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 585415071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expected Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control expectedQuantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 2930473216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control itemNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 517178826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control lastModifiedAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 2626499740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control locationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 1901257998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planner Task Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control plannerTaskId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 1724855646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Priority</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control priority - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 3321531959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resolution Notes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control resolutionNotes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 1557354128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resolved Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control resolvedDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 998393528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 955603665 - Control 1445255788 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teams Message Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Exception API - Control teamsMessageId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Property 3446740159" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flow Run</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Property EntityCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Property 631549417" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flow Runs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Property EntitySetCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Control 2683860767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Control entryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Control 4238751847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flow Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Control flowName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Control 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Control id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Control 3290801345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logged At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Control loggedAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Control 1123684309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Control message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Control 858848667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Control result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Control 743252696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Control runId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Control 746436580 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Control sourceEntryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1087103301 - Control 458640351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run API - Control sourceType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flow Run Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the log entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 1973247455 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which flow ran.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Flow Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 1973247455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flow Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Flow Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 3032596473 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the flow reported the run.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Logged At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 3032596473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logged At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Logged At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 3080618677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies details of the run, such as an error message.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Message - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 472338107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the run succeeded or failed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Result - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 472338107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 3633922808 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Power Automate run ID, for finding the run in the flow's run history.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Run Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 3633922808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Run Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 3627141058 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry number of the approval request or inventory exception.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Source Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 3627141058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Source Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the run was about an approval request or an inventory exception.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4144211681 - Control 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PAA Flow Run Log - Control Source Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 193209033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Power Automate Approvals Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -748,20 +1078,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum PAA Run Result - EnumValue Succeeded - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2526977447 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source> </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum PAA Source Type - EnumValue   - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 2526977447 - EnumValue 2607541202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 2526977447 - EnumValue 3058963394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Approval Request</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum PAA Source Type - EnumValue Approval Request - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PAA Source Type - EnumValue ApprovalRequest - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2526977447 - EnumValue 288220479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 2526977447 - EnumValue 373035367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inventory Exception</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum PAA Source Type - EnumValue Inventory Exception - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PAA Source Type - EnumValue InventoryException - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2526977447 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PAA Source Type - EnumValue None - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 3971858064 - EnumValue 4191363521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1178123344">
           <source>Purchase Approvals</source>

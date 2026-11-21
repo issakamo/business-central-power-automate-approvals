@@ -4,15 +4,15 @@ enum 54104 "PAA Source Type"
 {
     Extensible = true;
 
-    value(0; " ")
+    value(0; None)
     {
-        Caption = ' ';
+        Caption = 'None';
     }
-    value(1; "Approval Request")
+    value(1; ApprovalRequest)
     {
         Caption = 'Approval Request';
     }
-    value(2; "Inventory Exception")
+    value(2; InventoryException)
     {
         Caption = 'Inventory Exception';
     }
